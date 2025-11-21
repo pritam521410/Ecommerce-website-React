@@ -18,7 +18,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
   position: sticky;
   top: 0;
   z-index: 100;
@@ -63,14 +63,14 @@ body {
   background: #fff;
   padding: 16px;
   border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
   transition: 0.3s ease-in-out;
   cursor: pointer;
 }
 
 .product:hover {
   transform: translateY(-6px);
-  box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
 }
 
 /* PRODUCT IMAGE */
@@ -100,7 +100,7 @@ body {
 /* RATING COLOR */
 .product h6:first-of-type {
   font-weight: bold;
-  color: #ffa41c; 
+  color: #ffa41c;
 }
 
 /* ---------------- RESPONSIVE ---------------- */

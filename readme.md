@@ -137,6 +137,68 @@ Dependencies (kaunse packages chahiye)
 
 Versions (approximate range)
 
+# app.js ka hai
+
+// <div id="container">
+// <h1> I am Heading 1</h1>
+// <h2> I am Heading 2</h2>
+// </div>;
+// }
+
+// upar jo code hai wo javascript mei hai hume usi ko React mei likhna hai
+
+// const containerDiv = React.createElement("div", { id: "container" }, [
+// React.createElement("h1", {}, "I am Heading 1"),
+// React.createElement("h2", {}, "I am Heading 2"),
+// ]);
+
+// console.log(containerDiv); // ye htmlelement nhi hai ye object hai
+// const root = ReactDOM.createRoot(document.getElementById("root"));
+
+// root.render(containerDiv);
+
+// const containerDiv = React.createElement(
+// "div",
+// { id: "container1" },
+// [
+// React.createElement("h1", { key: "h1" }, " I am Heading 1"),
+// React.createElement("h2", { key: "h2" }, "I am Heading 2"),
+// ],
+
+// React.createElement("div", { id: "container2" }, [
+// React.createElement("h3", { key: "h3" }, "I am Heading 3"),
+// React.createElement("h4", { key: "h4" }, " I am Heading 20"),
+// ])
+// );
+
+// const root = ReactDOM.createRoot(document.getElementById("root"));
+
+// root.render(containerDiv);
+
+// const age = 21;
+
+// const fn = () => {
+// return true;
+// };
+
+// const fun2 = () => true;
+
+// const heading = () => {
+// <h1 id="heading"> Heading 2</h1>;
+// };
+
+// const Heading3 = () => {
+// return (
+// <div className="container">
+// <h1 id="heading">{age}</h1>
+// </div>
+// );
+// };
+
+// const root = ReactDOM.createRoot(document.getElementById("root"));
+
+// root.render(<Heading3 />);
+
 # npm and npx
 
 npm package install karne ke liye use hota hai
@@ -165,7 +227,7 @@ two types of component
 
 2. functional based component :- new version to write react code
 
-******\*\*\*\*******part 4******\*\*\*******
+**\*\***\*\*\*\***\*\***part 4**\*\***\*\*\***\*\***
 
 # Ish part mei dekhenge agar hume react mei project banayenge to uska kis type se planning karke banana chaiye
 
@@ -175,7 +237,10 @@ two types of component
 // logo
 // menuItems
 
+# props in react
 
-# props in  react 
+jis tarah ek hum fumction with parameters bana lete hai then usko bar bar use karte hai arguments pass karke usi tarah hum react mei hum ek function bana lete hai usko use karte hai usa props kehte hai4
 
-jis tarah ek hum fumction with parameters bana lete hai then usko bar bar use karte hai arguments pass karke usi tarah hum react mei hum ek function bana lete hai usko use karte hai usa props kehte hai
+# file structure kaise rakhe react mei
+
+// source ke ander components rahega and then app.js ko src ke ander rakhenge
