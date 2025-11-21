@@ -1,5 +1,5 @@
-# koi v javascript mei hume suggestion milta hai wo milta hai with the help js engine browser ko sara chiz pahale se pata hota hai
 
+<<<<<<< HEAD
 # browser ko react pahale se pata nhi hota hai sirf wo js engine janta hai agar usa react janna hai to react ko vs code mei install karna parega
 
 # CDN(content Delivery network)
@@ -244,3 +244,5 @@ jis tarah ek hum fumction with parameters bana lete hai then usko bar bar use ka
 # file structure kaise rakhe react mei
 
 // source ke ander components rahega and then app.js ko src ke ander rakhenge
+=======
+>>>>>>> 9bcdff64b1ac9c756c4ea12608e6e1668fd00940
